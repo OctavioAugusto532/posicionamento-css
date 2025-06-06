@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Wrapper principal como referência */
+.page-wrapper {
+  position: relative;
+  padding: 20px;
+}
+
+/* Introdução */
+.intro {
+  margin-bottom: 20px;
+}
+
+/* Painel da esquerda */
+.explanation {
+  width: 60%;
+  float: left;
+  border-right: 1px solid #1f295c;
+  padding-right: 2%;
+  margin-right: 35%; /* reserva espaço para o menu */
+}
+
+/* Painel da direita (menu) */
+.design-menu {
+  position: absolute;
+  top: 120px; /* topo da página, logo abaixo da introdução */
+  left: 62%;  /* começa depois da .explanation */
+  width: 35%;
+  padding: 0 2%;
+  background-color: #f2f2f2;
+}
+
+/* Estilos extras */
+.design-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.design-menu li {
+  margin-bottom: 10px;
+}
+
+.design-menu a {
+  text-decoration: none;
+  color: #1f295c;
+}
+
+.design-menu a:hover {
+  text-decoration: underline;
+}
